@@ -68,6 +68,7 @@ body {
     overflow-x: auto;
     overflow-y: hidden;
     white-space: nowrap;
+    min-width: 50%;
 }
 
 #scroll::-webkit-scrollbar-thumb {
@@ -135,11 +136,11 @@ body {
         font-size: 1rem;
     }
     #thelist {
-        font-size: .8rem;
+        font-size: 1rem;
     }
     #thelist {}
     #h1 {
-        font-size: large;
+        font-size: x-large;
     }
     #thelist>li>span>input {
         accent-color: black;
