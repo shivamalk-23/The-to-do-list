@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE TO DO LIST</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <!-- the text entering area -->
+    <div id="enterbar">
+
+        <input type="text" id="textbar">
+
+
+        <div id="btns">
+            <button id="add" title=" Let's get started" onclick="adder()">  ADD</button>
+
+        </div>
+        <div id="timebar">
+            <p id="time"></p>
+        </div>
+    </div>
+
+
+    <!--  LIST -->
+    <div id="scroll">
+        <div id="listbar">
+            <h1 id="h1">THE TO DO LIST</h1>
+            <ol id="thelist">
+
+            </ol>
+
+            <button id="clear" title="want to start over ?" onclick="listclear()">&#x1F5D1;</button>
+
+        </div>
+    </div>
+
+    <!-- the quote area in bottom -->
+    <!--  <div id="quotebar">
+
+        <h4 id="thequote"></h4>
+        <p id="author">-author</p>
+        <button id="nextquote" onclick="quoter()" title=" Enlightenment ?">&#x21d2;</button>
+    </div> -->
+
+    <!--  the java script -->
+
+    <script src="func.js"></script>
+</body>
+
+</html>

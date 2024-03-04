@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#scroll {
+    width: 50%;
+}
+
+#enterbar {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: black;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#textbar {
+    margin: 2.5rem 0 2.5rem 2.5rem;
+    padding: 0.7rem;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+#add {
+    margin: 2.6rem 0rem 2.5rem 0rem;
+    border-radius: 20px;
+    border: none;
+    padding: .7rem 1.5rem .7rem .8rem;
+    width: 80%;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    border: none;
+}
+
+#timebar {
+    margin: 3.2rem 0rem 2rem 0rem;
+    justify-self: end;
+    color: white;
+}
+
+#thelist {
+    min-height: 150px;
+}
+
+#listbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2.rem;
+    margin: 2rem;
+}
+
+#scroll {
+    box-shadow: 10px 10px rgb(23, 23, 26);
+    border-radius: 20px;
+    margin: 2rem;
+}
+
+#thelist>li>button {
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    border-radius: 20px;
+    margin: .21rem;
+}
+
+#clear {
+    align-self: self-end;
+}
+
+#thelist>li>span>input {
+    accent-color: black;
+    margin: .5rem;
+    height: 1rem;
+    width: 1rem;
+    position: relative;
+    top: 3px;
+}
+
+#thelist>li {
+    list-style: none;
+}
+
+@media(max-width:390px) {
+    body {
+        font-size: .62rem;
+    }
+    #textbar {
+        margin: 2.5rem 0 2.5rem 2.5rem;
+        padding: 0.7rem;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+    #add {
+        margin: 2.6rem 0rem 2.5rem 0rem;
+        border-radius: 20px;
+        border: none;
+        padding: .7rem 1.5rem .7rem .8rem;
+        width: 80%;
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 0px;
+        border: none;
+    }
+    #timebar {
+        margin: 3.2rem 0rem 2rem 0rem;
+        justify-self: end;
+        color: white;
+        font-size: 1rem;
+    }
+    #thelist {
+        font-size: .8rem;
+    }
+    #thelist {}
+    #h1 {
+        font-size: large;
+    }
+    #thelist>li>span>input {
+        accent-color: black;
+        margin: .2rem;
+        height: .8rem;
+        width: .8rem;
+        position: relative;
+        top: 3px;
+    }
+}
+
+@media(max-width:550px) {
+    #h1 {
+        font-size: large;
+    }
+}
